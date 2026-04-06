@@ -6,7 +6,7 @@ public class LRUEvictionPolicy implements EvictionPolicy {
 
     LRUEvictionPolicy(int maxEntries) {
         // true = order by access, false = order by insertion
-        this.accessOrder = new LinkedHashMap(maxEntries, , true);
+        this.accessOrder = new LinkedHashMap(maxEntries, 0.7F, true);
     }
 
     @Override
