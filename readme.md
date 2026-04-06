@@ -1,0 +1,1 @@
+![UML diagram](static/distributed-cache-uml-v1.png)
